@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sets of Three</title>
+  <style>
+    html, body {
+      margin: 0; padding: 0;
+      background: black;
+      color: #bfff91;
+      height: 100vh;
+      width: 100vw;
+      font-family: sans-serif;
+      overflow: hidden;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    body > .app-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 95vh;
+      width: 95vw;
+      max-width: 600px;
+      text-align: center;
+      padding: 1vh 1vw;
+    }
+
+    .title-row h1 {
+      font-size: 4vh;
+      color: hotpink;
+      margin: 0 0 0.5em 0;
+      line-height: 1.2;
+    }
+    .title-row h1 span.larger-line {
+      font-size: 7vh;
+      display: inline-block;
+      margin-top: 0.1em;
+    }
+
+    .instructions-row p {
+      font-size: 3vh;
+      line-height: 1.3;
+      margin: 0 0 1.5em 0;
+      user-select: none;
+    }
+    .instructions-row p strong {
+      display: block;
+      margin-bottom: 0.7em;
+    }
+
+    .control-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5vw;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .control-row button {
+      color: #bfff91;
+      font-size: 3vh;
+      font-weight: bold;
+      border: none;
+      border-radius: 1vh;
+      padding: 1vh 3vw;
+      cursor: pointer;
+      flex: 1 1 40%;
+      min-width: 120px;
+      max-width: 40vw;
+      white-space: nowrap;
+      transition: background-color 0.3s, transform 0.2s;
+      user-select: none;
+    }
+
+    /* Custom base colors for each group */
+    .btn-a { background-color: #b000a4; }
+    .btn-b { background-color: #3b00b4; }
+    .btn-c { background-color: #00b405; }
+    .btn-d { background-color: #f5ff16; color: black; }
+    .btn-e { background-color: #ffa802; color: black; }
+    .btn-f { background-color: #f10606; }
+
+    /* Hover/focus style remains unchanged */
+    .control-row button:hover,
+    .control-row button:focus {
+      background-color: #bfff91;
+      color: hotpink;
+      transform: scale(1.05);
+      outline: none;
+    }
+
+    @media (max-width: 380px) {
+      body > .app-container {
+        height: 100vh;
+        width: 100vw;
+        padding: 1vh 2vw;
+      }
+
+      .title-row h1 {
+        font-size: 3vh;
+      }
+      .title-row h1 span.larger-line {
+        font-size: 5vh;
+      }
+
+      .instructions-row p {
+        font-size: 2.2vh;
+        margin-bottom: 1em;
+      }
+
+      .control-row {
+        gap: 1vw;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .control-row button {
+        font-size: 2.5vh;
+        padding: 0.8vh 4vw;
+        min-width: 85vw;
+        max-width: 90vw;
+        flex: none;
+        white-space: normal;
+      }
+    }
+
+    @media (max-width: 320px) {
+      .title-row h1 {
+        font-size: 2.5vh;
+      }
+      .title-row h1 span.larger-line {
+        font-size: 4vh;
+      }
+      .instructions-row p {
+        font-size: 2vh;
+      }
+      .control-row button {
+        font-size: 2vh;
+        padding: 0.6vh 3vw;
+        min-width: 90vw;
+        max-width: 95vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <div class="title-row">
+      <h1>
+        An Educator's Little Friend Presents:<br />
+        <span class="larger-line">"Sets of Three"</span>
+      </h1>
+    </div>
+
+    <div class="instructions-row">
+      <p>
+        <strong style="color:#bfff91;">
+          15 cards will be placed randomly and flipped over.<br />
+          Your job is to flip up to 3 cards at a time and find sets or pairs.<br /><br />
+        </strong>
+        <strong style="color: hotpink;">
+          PLEASE CHOOSE A GROUP TO PRACTICE.
+        </strong>
+      </p>
+    </div>
+
+    <div class="control-row">
+      <button class="btn-a" onclick="goTo('groupA.html')">Group A</button>
+      <button class="btn-b" onclick="goTo('groupB.html')">Group B</button>
+      <button class="btn-c" onclick="goTo('groupC.html')">Group C</button>
+      <button class="btn-d" onclick="goTo('groupD.html')">Group D</button>
+      <button class="btn-e" onclick="goTo('groupE.html')">Group E</button>
+      <button class="btn-f" onclick="goTo('groupF.html')">Group F</button>
+    </div>
+  </div>
+
+  <script>
+    function goTo(url) {
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>

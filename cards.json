@@ -1,0 +1,544 @@
+{
+  "groups": [
+    {
+      "groupId": "A",
+      "sets": [
+        {
+          "equivalenceId": "01",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf01.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp01.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd01.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "02",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf02.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp02.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd02.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "03",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf03.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp03.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd03.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "04",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf04.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp04.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd04.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "05",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf05.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp05.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd05.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "B",
+      "sets": [
+        {
+          "equivalenceId": "06",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf06.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp06.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd06.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "07",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf07.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp07.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd07.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "08",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf08.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp08.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd08.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "09",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf09.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp09.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd09.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "10",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf10.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp10.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd10.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "C",
+      "sets": [
+        {
+          "equivalenceId": "11",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf11.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp11.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd11.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "12",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf12.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp12.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd12.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "13",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf13.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp13.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd13.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "14",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf14.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp14.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd14.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "15",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf15.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp15.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd15.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "D",
+      "sets": [
+        {
+          "equivalenceId": "16",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf16.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp16.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd16.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "17",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf17.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp17.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd17.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "18",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf18.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp18.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd18.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "19",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf19.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp19.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd19.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "20",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf20.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp20.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd20.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "E",
+      "sets": [
+        {
+          "equivalenceId": "21",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf21.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp21.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd21.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "22",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf22.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp22.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd22.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "23",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf23.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp23.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd23.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "24",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf24.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp24.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd24.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "25",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf25.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp25.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd25.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "F",
+      "sets": [
+        {
+          "equivalenceId": "26",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf26.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp26.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd26.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "27",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf27.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp27.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd27.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "28",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf28.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp28.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd28.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "29",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf29.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp29.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd29.svg"
+            }
+          ]
+        },
+        {
+          "equivalenceId": "30",
+          "items": [
+            {
+              "type": "fraction",
+              "image": "flip/flipf30.svg"
+            },
+            {
+              "type": "percent",
+              "image": "flip/flipp30.svg"
+            },
+            {
+              "type": "decimal",
+              "image": "flip/flipd30.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

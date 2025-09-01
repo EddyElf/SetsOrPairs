@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sets of Three</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-start="11" data-end="15" style="background-color: #00b405;">
+  <!-- Splash Screen -->
+  <div id="splash-screen" style="background-color: #00b405;">
+    <img src="groupC.png" alt="Splash" id="splash-image" />
+  </div>
+  <div id="final-screen" style="background-color: #00b405;">
+    <div id="final-message"></div>
+  </div>
+
+  <!-- Main App Container -->
+  <div class="app-container" style="display: none;">
+    <div class="top-bar">
+      <button id="pause">⏸</button>
+      <div id="score"><span id="score-value">0</span></div>
+      <button id="restart">⭯</button>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="bottom-bar">
+      <button id="pair">PAIR</button>
+      <button id="set">SET</button>
+    </div>
+  </div>
+
+  <!-- Audio preload -->
+  <audio id="start-sound" src="racestart.mp3" preload="auto"></audio>
+  <audio id="ding-sound" src="ding.mp3" preload="auto"></audio>
+  <audio id="fail-sound" src="nowant.mp3" preload="auto"></audio>
+  <audio id="cheer-sound" src="cheers.mp3" preload="auto"></audio>  
+  <audio id="alert-sound" src="alert.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
